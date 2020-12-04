@@ -2,6 +2,7 @@
 import './App.css';
 import {Home} from "./Home"
 import {TakeNum} from "./TakeNum"
+import {FAQ} from"./FAQ"
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
         <TakeNum/>
         <Home user ={user} />
+        <FAQ/>
     </div>
   );
 }
